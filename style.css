@@ -1,0 +1,6 @@
+@import "reset.css";
+@import "var.css";
+
+html {
+  background-color: seashell;
+}
