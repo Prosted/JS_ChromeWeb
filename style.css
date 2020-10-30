@@ -4,3 +4,9 @@
 html {
   background-color: seashell;
 }
+
+.js-time {
+  font-size: 50px;
+  font-weight: 600;
+  color: blueviolet;
+}
