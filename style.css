@@ -5,8 +5,40 @@ html {
   background-color: seashell;
 }
 
+.js-clock {
+  margin-bottom: 40px;
+}
+
 .js-time {
   font-size: 50px;
   font-weight: 600;
   color: blueviolet;
+}
+
+form > input {
+  outline: none;
+  border: none;
+  width: 30%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 2px solid var(--main-color);
+  transition: all 0.5s ease-in-out;
+}
+
+form > input:focus {
+  border-color: steelblue;
+  background-color: turquoise;
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
