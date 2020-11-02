@@ -1,8 +1,8 @@
 @import "reset.css";
 @import "var.css";
 
-html {
-  background-color: seashell;
+body {
+  background-color: #00d2d3;
 }
 
 .js-clock {
@@ -41,4 +41,23 @@ input::placeholder {
 
 .showing {
   display: block;
+}
+
+.bgPicture {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  animation: bgFadeInOut 0.5s linear forwards;
+}
+
+@keyframes bgFadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
